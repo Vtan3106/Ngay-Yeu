@@ -28,7 +28,7 @@ $(function() {
 });
 // RANDOM BACKGROUND
 $(function() {
-    const backgrounds=['./public/src/img/bg.jpg', './public/src/img/bg2.jpg', './public/src/img/bg3.jpg'];
+    const backgrounds=['./public/src/img/bg.jpg', './public/src/img/bg2.jpg', './public/src/img/bg3.jpg', './public/src/img/bg4.jpg', './public/src/img/bg5.jpg'];
     function RandomBackground() {
         $('.bg-img').css('background-image', 'url(' + backgrounds[Math.floor(Math.random() * backgrounds.length)] + ')');
     }
